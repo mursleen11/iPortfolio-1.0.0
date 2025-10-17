@@ -67,13 +67,13 @@ body {
 }
 
 a {
-  color: var(--accent-color);
+  color: #3A6FF6;
   text-decoration: none;
   transition: 0.3s;
 }
 
 a:hover {
-  color: color-mix(in srgb, var(--accent-color), transparent 25%);
+  color: color-mix(in srgb, #3A6FF6, transparent 25%);
   text-decoration: none;
 }
 
@@ -124,7 +124,7 @@ h6 {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid var(--accent-color);
+  border: 3px solid #3A6FF6;
   border-top-color: var(--surface-color);
   animation: php-email-form-loading 1s linear infinite;
 }
@@ -202,7 +202,7 @@ h6 {
 
 .header .social-links a:hover {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #3A6FF6;
 }
 
 @media (min-width: 1200px) {
@@ -225,7 +225,7 @@ h6 {
 
 .header .header-toggle {
   color: var(--contrast-color);
-  background-color: var(--accent-color);
+  background-color: #3A6FF6;
   font-size: 22px;
   display: flex;
   align-items: center;
@@ -243,7 +243,7 @@ h6 {
 
 .header .header-toggle:hover {
   color: var(--contrast-color);
-  background-color: color-mix(in srgb, var(--accent-color) 90%, white 15%);
+  background-color: color-mix(in srgb, #3A6FF6 90%, white 15%);
 }
 
 /*--------------------------------------------------------------
@@ -297,12 +297,12 @@ h6 {
   border-radius: 50%;
   transition: 0.3s;
   flex-shrink: 0;
-  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+  background-color: color-mix(in srgb, #3A6FF6, transparent 90%);
 }
 
 .navmenu a .toggle-dropdown:hover,
 .navmenu a:focus .toggle-dropdown:hover {
-  background-color: var(--accent-color);
+  background-color: #3A6FF6;
   color: var(--contrast-color);
 }
 
@@ -315,12 +315,12 @@ h6 {
 .navmenu a:hover .navicon,
 .navmenu .active .navicon,
 .navmenu .active:focus .navicon {
-  color: var(--accent-color);
+  color: #3A6FF6;
 }
 
 .navmenu .active .toggle-dropdown,
 .navmenu .active:focus .toggle-dropdown {
-  background-color: var(--accent-color);
+  background-color: #3A6FF6;
   color: var(--contrast-color);
   transform: rotate(180deg);
 }
@@ -401,7 +401,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #ffffff;
-  border-color: var(--accent-color) transparent var(--accent-color) transparent;
+  border-color: #3A6FF6 transparent #3A6FF6 transparent;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -428,7 +428,7 @@ h6 {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background-color: var(--accent-color);
+  background-color: #3A6FF6;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -442,7 +442,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background-color: color-mix(in srgb, #3A6FF6, transparent 20%);
   color: var(--contrast-color);
 }
 
@@ -530,7 +530,7 @@ section,
   display: block;
   width: 50px;
   height: 3px;
-  background: var(--accent-color);
+  background: #3A6FF6;
   left: 0;
   bottom: 0;
 }
@@ -588,7 +588,7 @@ section,
 
 .hero p span {
   letter-spacing: 1px;
-  border-bottom: 2px solid var(--accent-color);
+  border-bottom: 2px solid #3A6FF6;
 }
 
 .hero .social-links {
@@ -605,7 +605,7 @@ section,
 }
 
 .hero .social-links a:hover {
-  color: var(--accent-color);
+  color: #3A6FF6;
 }
 
 @media (max-width: 768px) {
@@ -644,7 +644,7 @@ section,
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: var(--accent-color);
+  color: #3A6FF6;
   line-height: 0;
 }
 
@@ -657,7 +657,7 @@ section,
 }
 
 .stats .stats-item i {
-  color: var(--accent-color);
+  color: #3A6FF6;
   display: block;
   font-size: 44px;
   float: left;
@@ -715,7 +715,7 @@ section,
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: var(--accent-color);
+  background-color: #3A6FF6;
 }
 
 /*--------------------------------------------------------------
@@ -732,7 +732,7 @@ section,
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid var(--accent-color);
+  border-left: 2px solid #3A6FF6;
   position: relative;
 }
 
@@ -774,7 +774,7 @@ section,
   left: -9px;
   top: 0;
   background: var(--background-color);
-  border: 2px solid var(--accent-color);
+  border: 2px solid #3A6FF6;
 }
 
 /*--------------------------------------------------------------
@@ -802,7 +802,7 @@ section,
 
 .portfolio .portfolio-filters li:hover,
 .portfolio .portfolio-filters li.filter-active {
-  color: var(--accent-color);
+  color: #3A6FF6;
 }
 
 .portfolio .portfolio-filters li:first-child {
@@ -845,7 +845,7 @@ section,
   font-weight: 400;
   color: #ffffff;
   display: inline-block;
-  background-color: var(--accent-color);
+  background-color: #3A6FF6;
 }
 
 .portfolio .portfolio-content .portfolio-info p {
@@ -873,7 +873,7 @@ section,
 
 .portfolio .portfolio-content .portfolio-info .preview-link:hover,
 .portfolio .portfolio-content .portfolio-info .details-link:hover {
-  color: var(--accent-color);
+  color: #3A6FF6;
 }
 
 .portfolio .portfolio-content .portfolio-info .details-link {
@@ -898,7 +898,7 @@ section,
 }
 
 .services .service-item .icon {
-  background: var(--accent-color);
+  background: #3A6FF6;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -906,7 +906,7 @@ section,
   height: 54px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid var(--accent-color);
+  border: 1px solid #3A6FF6;
   margin-right: 20px;
 }
 .image-overlay {
@@ -940,7 +940,7 @@ section,
 }
 
 .services .service-item:hover .icon i {
-  color: var(--accent-color);
+  color: #3A6FF6;
 }
 
 .services .service-item .title {
@@ -954,7 +954,7 @@ section,
 }
 
 .services .service-item .title a:hover {
-  color: var(--accent-color);
+  color: #3A6FF6;
 }
 
 .services .service-item .description {
@@ -996,7 +996,7 @@ section,
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: color-mix(in srgb, var(--accent-color), transparent 40%);
+  color: color-mix(in srgb, #3A6FF6, transparent 40%);
   font-size: 26px;
   line-height: 0;
 }
@@ -1052,11 +1052,11 @@ section,
   height: 12px;
   background-color: var(--background-color);
   opacity: 1;
-  border: 1px solid var(--accent-color);
+  border: 1px solid #3A6FF6;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--accent-color);
+  background-color: #3A6FF6;
 }
 
 /*--------------------------------------------------------------
@@ -1080,8 +1080,8 @@ section,
 
 .contact .info-item i {
   font-size: 20px;
-  color: var(--accent-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+  color: #3A6FF6;
+  background: color-mix(in srgb, #3A6FF6, transparent 92%);
   width: 44px;
   height: 44px;
   display: flex;
@@ -1106,7 +1106,7 @@ section,
 }
 
 .contact .info-item:hover i {
-  background: var(--accent-color);
+  background: #3A6FF6;
   color: var(--contrast-color);
 }
 
@@ -1138,7 +1138,7 @@ section,
 .contact .php-email-form input[type=text]:focus,
 .contact .php-email-form input[type=email]:focus,
 .contact .php-email-form textarea:focus {
-  border-color: var(--accent-color);
+  border-color: #3A6FF6;
 }
 
 .contact .php-email-form input[type=text]::placeholder,
@@ -1149,7 +1149,7 @@ section,
 
 .contact .php-email-form button[type=submit] {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #3A6FF6;
   border: 0;
   padding: 10px 30px;
   transition: 0.4s;
@@ -1157,7 +1157,7 @@ section,
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 25%);
+  background: color-mix(in srgb, #3A6FF6, transparent 25%);
 }
 
 /*--------------------------------------------------------------
@@ -1180,7 +1180,7 @@ section,
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--accent-color);
+  background-color: #3A6FF6;
 }
 
 .portfolio-details .portfolio-info {
@@ -1243,11 +1243,11 @@ section,
 .service-details .services-list a.active {
   color: var(--heading-color);
   font-weight: 700;
-  border-color: var(--accent-color);
+  border-color: #3A6FF6;
 }
 
 .service-details .services-list a:hover {
-  border-color: var(--accent-color);
+  border-color: #3A6FF6;
 }
 
 .service-details .services-img {
@@ -1283,7 +1283,7 @@ section,
 .service-details ul i {
   font-size: 20px;
   margin-right: 8px;
-  color: var(--accent-color);
+  color: #3A6FF6;
 }
 
 /*--------------------------------------------------------------
